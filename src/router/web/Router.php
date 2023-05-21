@@ -1,8 +1,8 @@
 <?php
 
-namespace Esoft\Framework\Router\Web;
+namespace Esoftuz\Framework\Router\Web;
 
-use Esoft\Framework\Traits\RouterTrait;
+use Esoftuz\Framework\Traits\RouterTrait;
 
 class Router
 {

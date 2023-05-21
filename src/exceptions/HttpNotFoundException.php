@@ -1,6 +1,6 @@
 <?php
 
-namespace Esoft\Framework\Exceptions;
+namespace Esoftuz\Framework\Exceptions;
 
 use Exception;
 use Throwable;

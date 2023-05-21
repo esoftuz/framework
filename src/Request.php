@@ -1,6 +1,6 @@
 <?php
 
-namespace Esoft\Framework;
+namespace Esoftuz\Framework;
 
 class Request
 {

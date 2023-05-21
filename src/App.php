@@ -1,17 +1,22 @@
 <?php
 
-namespace Esoft\Framework;
+namespace Esoftuz\Framework;
 
-use Esoft\Framework\Exceptions\HttpNotFoundException;
-use Esoft\Framework\Exceptions\CommandNotFoundException;
-use Esoft\Framework\Router\Console\Router as ConsoleRouter;
-use Esoft\Framework\Router\Web\Router as WebRouter;
+use Esoftuz\Framework\Exceptions\HttpNotFoundException;
+use Esoftuz\Framework\Exceptions\CommandNotFoundException;
+use Esoftuz\Framework\Router\Console\Router as ConsoleRouter;
+use Esoftuz\Framework\Router\Web\Router as WebRouter;
 
 final class App
 {
     public string $type;
 
     use Traits\CoreRoutes;
+
+    public function __construct(public readonly string $dir)
+    {
+    }
+
     /**
      * @throws HttpNotFoundException
      */

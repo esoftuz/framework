@@ -1,9 +1,9 @@
 <?php
 
-namespace Esoft\Framework\traits;
+namespace Esoftuz\Framework\traits;
 
-use Esoft\Framework\Handlers\ConsoleHandler;
-use Esoft\Framework\Router\Console\Router as ConsoleRouter;
+use Esoftuz\Framework\Handlers\ConsoleHandler;
+use Esoftuz\Framework\Router\Console\Router as ConsoleRouter;
 
 trait CoreRoutes
 {

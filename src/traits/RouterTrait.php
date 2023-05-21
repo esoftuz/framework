@@ -1,6 +1,6 @@
 <?php
 
-namespace Esoft\Framework\traits;
+namespace Esoftuz\Framework\traits;
 
 trait RouterTrait
 {

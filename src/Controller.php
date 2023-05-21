@@ -1,6 +1,6 @@
 <?php
 
-namespace Esoft\Framework;
+namespace Esoftuz\Framework;
 
 abstract class Controller
 {
