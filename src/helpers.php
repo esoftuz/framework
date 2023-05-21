@@ -11,7 +11,7 @@ function view($name, $args = []): string
     global $app;
     $dir = match($app->type)
     {
-        'web' => __DIR__ . '/../views/',
+        'web' => $app->dir . '/../views/',
         'console' => __DIR__ . '/views/'
     };
 
